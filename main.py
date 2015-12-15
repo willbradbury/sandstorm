@@ -17,8 +17,7 @@ tag -- Tool to manually tag test data
 train -- Construct model from training data and report stats
 test -- Test model on testing data and report stats
 
-Submodules can be combined to perform multiple tasks in one call
-""")
+Submodules can be combined to perform multiple tasks in one call""")
 
 def main():
     args = [i.lower() for i in sys.argv]
